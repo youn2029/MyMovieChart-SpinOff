@@ -24,7 +24,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     // 테이블 뷰 셀을 클릭했을 때 호출
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        NSLos("\(indexPath.row)번째 데이터 클릭")
+        NSLog("\(indexPath.row)번째 데이터 클릭")
     }
     
     override func viewDidLoad() {
